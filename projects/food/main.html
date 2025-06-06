@@ -1,0 +1,224 @@
+<!-- Mondares, Angelo B. -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA_Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="style.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+ 
+	<link rel="icon" type="image/x-icon" href="sashimi.png">
+    
+	
+	<title>Food Ordering UI</title>
+</head>
+<body>
+
+	
+	<input type="checkbox" id="cart">
+	<label for="cart" class="label-cart"><span class="fas fa-shopping-cart"></span></label>
+
+	<div class="logo">Zenko Resto</div>
+
+
+	<div class="sidebar">
+		<div class="sidebar-menu">
+			<span class="fas fa-search"></span>
+			<a href="#"></a>
+		</div>
+		<div class="sidebar-menu">
+			<span class="fas fa-heart"></span>
+			<a href="#"></a>
+		</div>
+		<div class="sidebar-menu">
+			<span class="fas fa-home"></span>
+			<a href="#"></a>
+		</div>
+		<div class="sidebar-menu">
+			<span class="fa fa-solid fa-phone"></span>
+			<a href="#"></a>
+		</div>
+		<div class="sidebar-menu">
+			<span class="fas fa-bell-concierge"></span>
+			<a href="#"></a>
+		</div>
+	</div>
+
+	<section class="container">
+		<div class="slider-wrapper">
+		 <div class="slider">
+			<img id="slide-1" src="image/sashimibg.png" alt="sashimi">
+			<img id="slide-2" src="image/sushibg.png" alt="sushi">
+			<img id="slide-3" src="image/ramenbg.png" alt="ramen">
+			<img id="slide-4" src="image/mochibg.png" alt="mochi">
+		  </div>
+		  <div class="slider-nav">
+			<a href="#slide-1"></a>
+			<a href="#slide-2"></a>
+			<a href="#slide-3"></a>
+			<a href="#slide-4"></a>
+		  </div>
+	
+		  </div>
+		</div>
+	</section>	
+
+
+	<div class="dashboard">
+		<div class="dashboard-menu">
+			<a href="#">Best Sellers</a>
+			<a href="#">Top Rated</a>
+			<a href="#">Promotion</a>
+			<a href="#">Nearby</a>
+			<a href="#">Newcomers</a>
+			<a href="#">All</a>
+		</div>
+
+		<div class="dashboard-content">
+
+			<div class="dashboard-card">
+				<img class="card-image" src="image/gyoza.png">
+				<div class="card-details">
+					<h4>Gyoza<span>₱300</span></h4>
+					<p></p>
+					
+				</div>
+			</div>
+
+			<div class="dashboard-card">
+				<img class="card-image" src="image/gyudon.png">
+				<div class="card-details">
+					<h4>Gyudon<span>₱385</span></h4>
+					<p></p>
+					
+				</div>
+			</div>
+
+			<div class="dashboard-card">
+				<img class="card-image" src="image/hiyayakko.png">
+				<div class="card-details">
+					<h4>Hiyayakko<span>₱100</span></h4>
+					<p></p>
+					
+				</div>
+			</div>
+
+			<div class="dashboard-card">
+				<img class="card-image" src="image/mochi.png">
+				<div class="card-details">
+					<h4>Mochi<span>₱250</span></h4>
+					<p></p>
+					
+				</div>
+			</div>
+
+			<div class="dashboard-card">
+				<img class="card-image" src="image/ramen.png">
+				<div class="card-details">
+					<h4>Ramen<span>₱350</span></h4>
+					<p></p>
+					
+				</div>
+			</div>
+
+			<div class="dashboard-card">
+				<img class="card-image" src="image/sashimi.png">
+				<div class="card-details">
+					<h4>Sashimi<span>₱550</span></h4>
+					<p></p>
+					
+				</div>
+			</div>
+
+			<div class="dashboard-card">
+				<img class="card-image" src="image/sukiyaki.png">
+				<div class="card-details">
+					<h4>Sukiyaki<span>₱700</span></h4>
+					<p></p>
+					
+				</div>
+			</div>
+
+			<div class="dashboard-card">
+				<img class="card-image" src="image/sushi.png">
+				<div class="card-details">
+					<h4>Sushi<span>₱400</span></h4>
+					<p></p>
+					
+				</div>
+			</div>
+
+				<div class="dashboard-card">
+				<img class="card-image" src="image/tempura.png">
+				<div class="card-details">
+					<h4>Tempura<span>₱300</span></h4>
+					<p></p>
+
+				</div>
+			</div>
+
+				<div class="dashboard-card">
+				<img class="card-image" src="image/tonkatsu.png">
+				<div class="card-details">
+					<h4>Tonkatsu<span>₱350</span></h4>
+					<p></p>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		<div class="dashboard-order">
+			<h3>My Orders</h3>
+			<div class="order-address">
+				<p>Delivery address</p>
+				<h4>143 Dagupan City, Arellano St.</h4>
+			</div>
+			<div class="order-time">
+				<span class="fas fa-clock"></span> 1 hour, 30 minutes <span class="fas fa-map-marker-alt"></span>3,323 km 
+			</div>
+
+			<div class="order-wrapper">
+				<div class="order-card">
+					<img class="order-image" src="image/gyudon.png">
+					<div class="order-detail">
+						<p>Gyudon</p>
+						<i class="fas fa-times"></i> <input type="text" value="1">
+					</div>
+					<h4 class="order-price">₱385</h4>
+				</div>
+
+				<div class="order-card">
+					<img class="order-image" src="image/mochi.png">
+					<div class="order-detail">
+						<p>Mochi</p>
+						<i class="fas fa-times"></i> <input type="text" value="1">
+					</div>
+					<h4 class="order-price">₱250</h4>
+				</div>
+			</div>
+
+			<hr class="divider">
+			<div class="order-total">
+				<p>Sub Total <span>₱635</span></p>
+				<p>Delivery Fee<span>₱50</span></p>			
+
+				<div class="order-promo">
+					<input class="input-promo" type="text" placeholder="Apply Voucher">
+					<button class="button-promo">Find Promo</button>
+				</div>
+				<hr class="divider">
+				<p>Total<span>₱685</span></p>
+			</div>
+			<button class="checkout">
+				Check out
+			</button>
+		</div>
+</body>
+</html>
